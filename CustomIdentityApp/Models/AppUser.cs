@@ -9,6 +9,6 @@ namespace CustomIdentityApp.Models
         [MaxLength(100)]
         [Required]
         public string? Name { get; set; }
-        public string? Adress { get; set; }
+        public string? Address { get; set; }
     }
 }
